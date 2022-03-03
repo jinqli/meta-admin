@@ -11,11 +11,11 @@
 3. esit package.json
 
    ```json
-     "config":{
-       "commitizon": {
-         "path":"node_modules/cz-customizable"
-       }
-     }
+   "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
+   }
    ```
 
 4. 根目录创建.cz-config.js

@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "commit": "node_modules/cz-customizable/cz-config-EXAMPLE.js"
   },
   "dependencies": {
     "vue": "^3.2.25"
@@ -14,7 +15,7 @@
     "@typescript-eslint/eslint-plugin": "^5.13.0",
     "@typescript-eslint/parser": "^5.13.0",
     "@vitejs/plugin-vue": "^2.2.0",
-    "cz-customizable": "^5.5.0",
+    "cz-customizable": "^5.10.0",
     "eslint": "^7.32.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.25.4",
@@ -26,7 +27,7 @@
     "vue-tsc": "^0.29.8"
   },
   "config": {
-    "commitizon": {
+    "commitizen": {
       "path": "node_modules/cz-customizable"
     }
   }
