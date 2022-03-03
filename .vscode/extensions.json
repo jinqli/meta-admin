@@ -1,0 +1,6 @@
+{
+  "recommendations": ["johnsoncodehk.volar"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true //ctrl+s保存的时候使用eslint修复
+  },
+}
